@@ -5,6 +5,13 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
+# Check for Ruby
+if test ! $(which ruby)
+then
+  echo "  Ruby not found, exiting."
+  exit 0
+fi
+
 
 # Check for Homebrew
 if test ! $(which brew)
