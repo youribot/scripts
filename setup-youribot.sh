@@ -6,6 +6,7 @@
 # using Homebrew.
 
 # Check for Ruby
+# TODO Install Ruby for them man!
 if test ! $(which ruby)
 then
   echo "  Ruby not found, exiting."
