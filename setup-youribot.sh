@@ -22,6 +22,10 @@ then
 
 fi
 
+
+# Install homebrew packages
+brew install ipfs
+
 # Tap cask
 brew tap caskroom/cask
 exit 0
